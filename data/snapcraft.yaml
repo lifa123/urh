@@ -168,9 +168,6 @@ parts:
       - qt5-gtk-platformtheme
       - libqt5x11extras5
       - locales
-    override-pull: |
-      snapcraftctl pull
-      snapcraftctl set-version $(python3 src/urh/version.py)
 
   sdrplay:
     plugin: dump
