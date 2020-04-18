@@ -137,7 +137,7 @@ parts:
     after: [desktop-qt5, sdrplay, alsa-mixin]
     plugin: python
     python-version: python3
-    requirements: [data/requirements.txt]
+    requirements: [requirements.txt]
     source: ..
     build-packages:
       - python3
