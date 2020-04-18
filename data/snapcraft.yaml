@@ -11,13 +11,14 @@ description: |
 
   After installation, give URH access to your USB in order to access your USB based SDRs:
 
-  ` sudo snap connect urh:raw-usb `
+     sudo snap connect urh:raw-usb
+
+  In order to access your SDR as non-root user, install the according **udev rules** available at https://github.com/jopohl/urh/wiki/SDR-udev-rules.
 
   If you want to use your Soundcard as an SDR for receiving please execute:
 
-  ` sudo snap connect urh:audio-record `
+     sudo snap connect urh:audio-record
 
-  In order to access your SDR as non-root user, install the according **udev rules** available at https://github.com/jopohl/urh/wiki/SDR-udev-rules.
 icon: data/icons/appicon.png
 
 
